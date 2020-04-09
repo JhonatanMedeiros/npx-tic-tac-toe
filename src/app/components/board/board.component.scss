@@ -1,0 +1,15 @@
+.board-container {
+  width: 100%;
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 5px;
+}
+
+ttt-square {
+  height: 200px;
+}

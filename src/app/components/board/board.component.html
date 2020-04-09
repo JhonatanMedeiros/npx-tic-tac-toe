@@ -1,0 +1,23 @@
+<div class="board-container">
+  <button class="btn btn-success mt-5 mb-3" (click)="newGame()">Start new Game</button>
+
+  <div class="alert" [ngClass]="getActiveClass()" *ngIf="!winner && !isDraw">
+    <h1>Current Player: {{ player }} </h1>
+  </div>
+
+  <div class="alert alert-success" *ngIf="winner">
+    <h1>Player <strong>{{ winner }}</strong> won the game!</h1>
+  </div>
+
+  <div class="alert alert-warning" *ngIf="isDraw">
+    <h1>Match drawn</h1>
+  </div>
+
+  <main>
+    <ttt-square
+      *ngFor="let val of squares; let i = index"
+      [value]="val"
+      (click)="makeMove(i)">
+    </ttt-square>
+  </main>
+</div>
