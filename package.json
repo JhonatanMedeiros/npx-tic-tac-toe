@@ -1,15 +1,33 @@
 {
   "name": "npx-tic-tac-toe",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe is a fun game with angular",
+  "keywords": [
+    "angular",
+    "typescript",
+    "javascript",
+    "game",
+    "tic-tac-toe"
+  ],
+  "license": "MIT",
+  "author": "Jhonatan Hardt de Medeiros",
+  "bugs": {
+    "url": "https://github.com/JhonatanMedeiros/npx-tic-tac-toe/issues"
+  },
+  "repository": {
+    "url": "https://github.com/JhonatanMedeiros/npx-tic-tac-toe/",
+    "type": "git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~9.1.1",
     "@angular/common": "~9.1.1",

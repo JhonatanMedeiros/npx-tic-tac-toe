@@ -1,27 +1,60 @@
-# NpxTicTacToe
+# Tic Tac Toe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+Tic-Tac-Toe is a fun game with angular
 
-## Development server
+## ✨ Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- 🕹 Simple Tic-Tac-Toe game
+- 🤖 Play with IA
+- 💻 Player with Player
+- 🎏 Add more ...
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🖥 Demo
+An example of application can be found [here]().
 
-## Build
+## ⌨️ Development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Clone Code
 
-## Running unit tests
+```bash
+git clone git@github.com:JhonatanMedeiros/npx-tic-tac-toe.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install Dependencies
 
-## Running end-to-end tests
+```bash
+npm install
+```
+> If you like [Yarn](https://yarnpkg.com/), you can also use `yarn` to install dependencies.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Development server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+npm run start
+```
+Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+
+### Build Release
+
+```bash
+npm run build:prod
+```
+
+After building, the application will be found in the `dist` directory.
+
+## 🛠 Technology Stack
+
+- [Angular 9x](https://angular.io/)
+- [Bootstrap 4](https://getbootstrap.com/)
+
+
+# 🤝 Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
+If you are interested in participating in joint development, PR and Forks are welcome!
+
+## 📜 License
+
+[MIT](LICENSE.md) Copyright (c) 2020 - Jhonatan Hardt de Medeiros
