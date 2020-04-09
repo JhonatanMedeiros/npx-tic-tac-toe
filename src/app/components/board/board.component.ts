@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BoardComponent implements OnInit {
 
   squares: string[];
+  playerWithIA = true;
   xIsNext: boolean;
   winner: string;
   isDraw = false;
@@ -39,6 +40,10 @@ export class BoardComponent implements OnInit {
       this.xIsNext = !this.xIsNext;
     }
     this.winner = this.calculateWinner();
+
+    if (this.playerWithIA && !this.winner && !this.isDraw && this.player === 'O') {
+      this.playIA();
+    }
   }
 
   getActiveClass(): string {
@@ -84,6 +89,27 @@ export class BoardComponent implements OnInit {
     }
 
     return winner;
+  }
+
+  private playIA(): void {
+    let idx;
+
+    const randomNumber = () => {
+      let min = 0;
+      let max = this.squares.length - 1;
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+
+    idx = randomNumber();
+
+    if (!!this.squares[idx]) {
+      this.playIA();
+      return;
+    }
+
+    this.makeMove(idx);
   }
 
 }
