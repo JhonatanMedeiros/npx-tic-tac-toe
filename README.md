@@ -57,4 +57,4 @@ If you are interested in participating in joint development, PR and Forks are we
 
 ## 📜 License
 
-[MIT](LICENSE.md) Copyright (c) 2020 - Jhonatan Hardt de Medeiros
+[MIT](https://github.com/JhonatanMedeiros/npx-tic-tac-toe/blob/master/LICENSE) Copyright (c) 2020 - Jhonatan Hardt de Medeiros

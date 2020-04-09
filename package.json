@@ -15,7 +15,7 @@
     "url": "https://github.com/JhonatanMedeiros/npx-tic-tac-toe/issues"
   },
   "repository": {
-    "url": "https://github.com/JhonatanMedeiros/npx-tic-tac-toe/",
+    "url": "git+https://github.com/JhonatanMedeiros/npx-tic-tac-toe.git",
     "type": "git"
   },
   "scripts": {
